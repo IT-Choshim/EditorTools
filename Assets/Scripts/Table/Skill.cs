@@ -19,19 +19,19 @@ namespace Game.Data.Skill
         
         // 技能
 
-		public double Id {get;set;}
+        public double Id {get;set;}
 
         // 描述
-		public string Des {get;set;}
+        public string Des {get;set;}
         // 使用类型
-		public double UseType {get;set;}
+        public double UseType {get;set;}
         // 包含的技能块
-		public List<double> SkillBlocks {get;set;}
+        public List<double> SkillBlocks {get;set;}
         // 等级id
-		public double LevelID {get;set;}
+        public double LevelID {get;set;}
         // 消耗
-		public double Consume {get;set;}
+        public double Consume {get;set;}
         // 图标
-		public string Icon {get;set;}
+        public string Icon {get;set;}
     }
 }

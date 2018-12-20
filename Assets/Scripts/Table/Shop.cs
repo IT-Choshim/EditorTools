@@ -19,15 +19,15 @@ namespace Game.Data.Shop
         
         // id
 
-		public double Id {get;set;}
+        public double Id {get;set;}
 
         // itemId
-		public double ItemId {get;set;}
+        public double ItemId {get;set;}
         // 数量
-		public double Count {get;set;}
+        public double Count {get;set;}
         // 价格
-		public double Price {get;set;}
+        public double Price {get;set;}
         // 类型
-		public double Type {get;set;}
+        public double Type {get;set;}
     }
 }

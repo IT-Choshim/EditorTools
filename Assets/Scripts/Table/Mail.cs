@@ -19,19 +19,19 @@ namespace Game.Data.Mail
         
         // ID
 
-		public double Id {get;set;}
+        public double Id {get;set;}
 
         // 邮件类型
-		public double type {get;set;}
+        public double type {get;set;}
         // 邮件状态
-		public double state {get;set;}
+        public double state {get;set;}
         // 是否已读
-		public double read {get;set;}
+        public double read {get;set;}
         // 名字
-		public double name {get;set;}
+        public double name {get;set;}
         // 内容
-		public double content {get;set;}
+        public double content {get;set;}
         // 链接
-		public double link {get;set;}
+        public double link {get;set;}
     }
 }

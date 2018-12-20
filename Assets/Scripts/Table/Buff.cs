@@ -19,47 +19,47 @@ namespace Game.Data.Buff
         
         // buffid
 
-		public double Id {get;set;}
+        public double Id {get;set;}
 
         // 描述
-		public string Des {get;set;}
+        public string Des {get;set;}
         // buff类型
-		public double BuffType {get;set;}
+        public double BuffType {get;set;}
         // 定义的类型,
         //用来做buff叠加等效果
-		public double DefinedType {get;set;}
+        public double DefinedType {get;set;}
         // 触发等级
-		public double TriggerLevel {get;set;}
+        public double TriggerLevel {get;set;}
         // 是否为负面buff
-		public bool IsDebuff {get;set;}
+        public bool IsDebuff {get;set;}
         // 受其他buff影响
-		public bool IsBeInfluenceByOtherBuff {get;set;}
+        public bool IsBeInfluenceByOtherBuff {get;set;}
         // 影响其他buff
-		public bool IsCanInfluenceOtherBuff {get;set;}
+        public bool IsCanInfluenceOtherBuff {get;set;}
         // 冷却时间（回合）
-		public double CD {get;set;}
+        public double CD {get;set;}
         // 持续时间（回合）
-		public double LifeTime {get;set;}
+        public double LifeTime {get;set;}
         // 触发条件
-		public List<string> Condition {get;set;}
+        public List<string> Condition {get;set;}
         // 参数列表 字符串
-		public List<string> ParamsStr {get;set;}
+        public List<string> ParamsStr {get;set;}
         // 参数列表 数值
-		public List<double> ParamsNum {get;set;}
+        public List<double> ParamsNum {get;set;}
         // 参数列表 数值2
-		public List<double> ParamsNum2 {get;set;}
+        public List<double> ParamsNum2 {get;set;}
         // 显示特效
-		public string Effect {get;set;}
+        public string Effect {get;set;}
         // buff图标
-		public string Icon {get;set;}
+        public string Icon {get;set;}
         // 最终的计算结果
         //（不需要填）
-		public double BuffValue {get;set;}
+        public double BuffValue {get;set;}
         // 增量的数值
         //（不需要填）
-		public double AddtionValue {get;set;}
+        public double AddtionValue {get;set;}
         // 增量的数值
         //（不需要填）
-		public bool IsGenarateOtherBuffs {get;set;}
+        public bool IsGenarateOtherBuffs {get;set;}
     }
 }

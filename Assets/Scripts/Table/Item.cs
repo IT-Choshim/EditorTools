@@ -19,13 +19,13 @@ namespace Game.Data.Item
         
         // ID
 
-		public double Id {get;set;}
+        public double Id {get;set;}
 
         // 道具
-		public string Name {get;set;}
+        public string Name {get;set;}
         // 类型
-		public double Type {get;set;}
+        public double Type {get;set;}
         // 描述
-		public string Des {get;set;}
+        public string Des {get;set;}
     }
 }

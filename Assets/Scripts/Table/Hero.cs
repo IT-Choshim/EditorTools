@@ -19,27 +19,27 @@ namespace Game.Data.Hero
         
         // id
 
-		public double Id {get;set;}
+        public double Id {get;set;}
 
         // 名称
-		public string Name {get;set;}
+        public string Name {get;set;}
         // 级别
-		public string Level {get;set;}
+        public string Level {get;set;}
         // 星级
-		public double StarLevel {get;set;}
+        public double StarLevel {get;set;}
         // 下个等级
-		public double NextLevel {get;set;}
+        public double NextLevel {get;set;}
         // 属性名
-		public List<string> AttributeName {get;set;}
+        public List<string> AttributeName {get;set;}
         // 属性值
-		public List<double> AttributeValue {get;set;}
+        public List<double> AttributeValue {get;set;}
         // 拥有技能id
-		public List<double> Skills {get;set;}
+        public List<double> Skills {get;set;}
         // 资源路径
-		public string ResurcePath {get;set;}
+        public string ResurcePath {get;set;}
         // 圆形icon
-		public string CircleIcon {get;set;}
+        public string CircleIcon {get;set;}
         // 菱形icon
-		public string RectIcon {get;set;}
+        public string RectIcon {get;set;}
     }
 }

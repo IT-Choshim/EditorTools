@@ -1,11 +1,10 @@
-﻿<Properties StartupConfiguration="{2BE4B6F3-C4DA-97E4-6637-EA4C46064E7B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Editor/ExcelUtility.cs">
+﻿<Properties StartupConfiguration="{01AD4FDB-307B-210B-7AAC-AB2059328D88}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Plugins/Editor/EditorTest.cs">
     <Files>
-      <File FileName="Assets/Editor/EditorTest.cs" Line="44" Column="20" />
-      <File FileName="Assets/Editor/EditorFile.cs" Line="25" Column="13" />
-      <File FileName="Assets/Editor/BD/BDEditor.cs" Line="3" Column="19" />
-      <File FileName="Assets/Editor/ExcelJson.cs" Line="58" Column="32" />
-      <File FileName="Assets/Editor/ExcelUtility.cs" Line="6" Column="5" />
+      <File FileName="Assets/Plugins/Editor/ExcelUtility.cs" Line="5" Column="1" />
+      <File FileName="Assets/Plugins/Editor/Excel2Code.cs" Line="109" Column="18" />
+      <File FileName="Assets/Plugins/Editor/EditorTest.cs" Line="6" Column="28" />
+      <File FileName="Assets/Plugins/Editor/ObjectClass.cs" Line="20" Column="10" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="Unity.Editor" />
