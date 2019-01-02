@@ -60,12 +60,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\AWindow.cs" />
+    <Compile Include="Assets\Scripts\SubWindow.cs" />
+    <Compile Include="Assets\Scripts\SubWindow_Logo.cs" />
     <Compile Include="Assets\Scripts\Table\Buff.cs" />
     <Compile Include="Assets\Scripts\Table\Hero.cs" />
     <Compile Include="Assets\Scripts\Table\Item.cs" />
     <Compile Include="Assets\Scripts\Table\Mail.cs" />
     <Compile Include="Assets\Scripts\Table\Shop.cs" />
     <Compile Include="Assets\Scripts\Table\Skill.cs" />
+    <Compile Include="Assets\Scripts\test.cs" />
+    <Compile Include="Assets\Scripts\Window_Logo.cs" />
+    <Compile Include="Assets\Scripts\WindowData.cs" />
     <Reference Include="UnityEditor.StandardEvents">
       <HintPath>/Users/lizhi/Work/unity/EditorTools/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
