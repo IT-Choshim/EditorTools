@@ -60,6 +60,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Code\ResourceMgr\BResources.cs" />
+    <Compile Include="Assets\Code\UI\ComponentAttribute.cs" />
+    <Compile Include="Assets\Code\UI\UITools.cs" />
+    <Compile Include="Assets\Code\UI\UITools_Attribute.cs" />
+    <Compile Include="Assets\Code\UI\UITools_AutoSetComTransformByData.cs" />
     <Compile Include="Assets\Code\Window\AWindow.cs" />
     <Compile Include="Assets\Code\Window\SubWindow.cs" />
     <Compile Include="Assets\Code\Window\WindowData.cs" />
