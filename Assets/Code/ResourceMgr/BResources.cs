@@ -4,21 +4,28 @@ using UnityEngine;
 
 namespace Code.BResourceMgr
 {
-    public class BResources : MonoBehaviour
+    static public class BResources
     {
-        static BResources()
-        {
 
-        }
+        static private IResMgr resMgr { get; set; }
 
 
         /// <summary>
-        /// Load the specified path.
+        /// 初始化
         /// </summary>
         /// <param name="path">Path.</param>
-        static public void Load(string path)
+        static public void Load(string root = "")
         {
-
+            if(root != "")
+            {
+                resMgr = new DevResourceMgr();
+            }
+            else
+            {
+#if UNITY_EDITOR
+                resMgr = new AssetBundleMgr();
+#endif
+            }
         }
 
 
@@ -30,13 +37,7 @@ namespace Code.BResourceMgr
         /// <typeparam name="T">The 1st type parameter.</typeparam>
         static public T Load<T>(string path) where T : UnityEngine.Object
         {
-            if (string.IsNullOrEmpty(path))
-            {
-                return null;
-            }
-
-            return (T)Instantiate(Resources.Load<T>(path));
-
+            return resMgr.Load<T>(path);
         }
 
     }

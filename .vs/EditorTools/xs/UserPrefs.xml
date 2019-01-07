@@ -1,14 +1,13 @@
 ﻿<Properties StartupConfiguration="{01AD4FDB-307B-210B-7AAC-AB2059328D88}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SubWindow_Logo.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/ResourceMgr/AssetBundleMgr.cs">
     <Files>
-      <File FileName="Assets/Code/UI/ComponentAttribute.cs" Line="31" Column="23" />
-      <File FileName="Assets/Code/UI/UITools_Attribute.cs" Line="25" Column="23" />
-      <File FileName="Assets/Code/UI/UITools.cs" Line="12" Column="25" />
-      <File FileName="Assets/Code/UI/UITools_AutoSetComTransformByData.cs" Line="148" Column="45" />
-      <File FileName="Assets/Code/ResourceMgr/BResources.cs" Line="39" Column="13" />
-      <File FileName="Assets/Scripts/test.cs" Line="10" Column="17" />
-      <File FileName="Assets/Scripts/Window_Logo.cs" Line="31" Column="31" />
-      <File FileName="Assets/Scripts/SubWindow_Logo.cs" Line="31" Column="54" />
+      <File FileName="Assets/Scripts/Window_Logo.cs" Line="25" Column="65" />
+      <File FileName="Assets/Scripts/SubWindow_Logo.cs" Line="16" Column="6" />
+      <File FileName="Assets/Code/ResourceMgr/IResMgr.cs" Line="5" Column="28" />
+      <File FileName="Assets/Code/ResourceMgr/AssetBundleMgr.cs" Line="81" Column="1" />
+      <File FileName="Assets/Code/ResourceMgr/DevResourceMgr.cs" Line="10" Column="32" />
+      <File FileName="Assets/Code/ResourceMgr/BResources.cs" Line="26" Column="1" />
+      <File FileName="Assets/Scripts/test.cs" Line="14" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="Unity.Editor" />

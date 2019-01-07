@@ -21,6 +21,7 @@ public class Window_Logo : AWindow {
     {
 
         Transform mainTrans = GameObject.Find("main").transform;
+        BResources.Load("");
         GameObject goR = BResources.Load<GameObject>("UITools");
         Debug.Log(goR);
         //GameObject go = BResources.Instantiate<GameObject>(goR);

@@ -60,7 +60,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Code\ResourceMgr\AssetBundleMgr.cs" />
     <Compile Include="Assets\Code\ResourceMgr\BResources.cs" />
+    <Compile Include="Assets\Code\ResourceMgr\DevResourceMgr.cs" />
+    <Compile Include="Assets\Code\ResourceMgr\IResMgr.cs" />
     <Compile Include="Assets\Code\UI\ComponentAttribute.cs" />
     <Compile Include="Assets\Code\UI\UITools.cs" />
     <Compile Include="Assets\Code\UI\UITools_Attribute.cs" />
