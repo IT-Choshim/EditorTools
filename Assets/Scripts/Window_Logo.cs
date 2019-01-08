@@ -36,7 +36,7 @@ public class Window_Logo : AWindow {
         UITools.AutoSetComValue(go.transform, tools);
 
 
-        /*
+
         var subWindow = new SubWindow_Logo(canvasTrans.Find("GameObject"));
         subWindow.Init();
         this.AddSubwindow("logo", subWindow);
@@ -50,7 +50,7 @@ public class Window_Logo : AWindow {
         var windowData = new WindowData();
         windowData.AddData("logo",data);
         this.OpenSubwindow("logo", windowData);
-        */      
+           
 
 
     }
