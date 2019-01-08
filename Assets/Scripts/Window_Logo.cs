@@ -20,12 +20,12 @@ public class Window_Logo : AWindow {
     public override void Init()
     {
 
-        Transform mainTrans = GameObject.Find("main").transform;
+        Transform canvasTrans = GameObject.Find("Canvas").transform;
         BResources.Load("");
-        GameObject goR = BResources.Load<GameObject>("UITools");
-        Debug.Log(goR);
-        //GameObject go = BResources.Instantiate<GameObject>(goR);
-        goR.transform.SetParent(mainTrans);
+        GameObject go = BResources.Load<GameObject>("UITools");
+        go = GameObject.Instantiate(go);
+        go.transform.SetParent(canvasTrans, false);
+
 
         var tools = new ToolsData()
         {
@@ -33,10 +33,11 @@ public class Window_Logo : AWindow {
             tx_Icon = "24",
         };
 
-        UITools.AutoSetComValue(goR.transform, tools);
+        UITools.AutoSetComValue(go.transform, tools);
 
 
-        var subWindow = new SubWindow_Logo(mainTrans.Find("GameObject"));
+        /*
+        var subWindow = new SubWindow_Logo(canvasTrans.Find("GameObject"));
         subWindow.Init();
         this.AddSubwindow("logo", subWindow);
 
@@ -49,6 +50,8 @@ public class Window_Logo : AWindow {
         var windowData = new WindowData();
         windowData.AddData("logo",data);
         this.OpenSubwindow("logo", windowData);
+        */      
+
 
     }
 

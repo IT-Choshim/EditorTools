@@ -1,13 +1,14 @@
 ﻿<Properties StartupConfiguration="{01AD4FDB-307B-210B-7AAC-AB2059328D88}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/ResourceMgr/AssetBundleMgr.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/Window/AWindow.cs">
     <Files>
-      <File FileName="Assets/Scripts/Window_Logo.cs" Line="25" Column="65" />
+      <File FileName="Assets/Scripts/Window_Logo.cs" Line="7" Column="31" />
       <File FileName="Assets/Scripts/SubWindow_Logo.cs" Line="16" Column="6" />
       <File FileName="Assets/Code/ResourceMgr/IResMgr.cs" Line="5" Column="28" />
-      <File FileName="Assets/Code/ResourceMgr/AssetBundleMgr.cs" Line="81" Column="1" />
-      <File FileName="Assets/Code/ResourceMgr/DevResourceMgr.cs" Line="10" Column="32" />
-      <File FileName="Assets/Code/ResourceMgr/BResources.cs" Line="26" Column="1" />
-      <File FileName="Assets/Scripts/test.cs" Line="14" Column="1" />
+      <File FileName="Assets/Code/ResourceMgr/AssetBundleMgr.cs" Line="14" Column="10" />
+      <File FileName="Assets/Code/ResourceMgr/DevResourceMgr.cs" Line="49" Column="90" />
+      <File FileName="Assets/Code/ResourceMgr/BResources.cs" Line="29" Column="10" />
+      <File FileName="Assets/Scripts/test.cs" Line="17" Column="52" />
+      <File FileName="Assets/Code/Window/AWindow.cs" Line="5" Column="30" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="Unity.Editor" />

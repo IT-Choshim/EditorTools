@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Code.BResourceMgr;
 using UnityEngine;
 
 public class test : MonoBehaviour {
@@ -8,6 +9,8 @@ public class test : MonoBehaviour {
 	void Start () {
         Window_Logo logo = new Window_Logo(this.transform);
         logo.Init();
+
+       
 	}
 	
 	// Update is called once per frame

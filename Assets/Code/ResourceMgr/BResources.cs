@@ -18,12 +18,12 @@ namespace Code.BResourceMgr
         {
             if(root != "")
             {
-                resMgr = new DevResourceMgr();
+                resMgr = new AssetBundleMgr();
             }
             else
             {
 #if UNITY_EDITOR
-                resMgr = new AssetBundleMgr();
+                resMgr = new DevResourceMgr();
 #endif
             }
         }
