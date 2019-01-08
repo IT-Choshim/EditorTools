@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Code.BWindow;
 using UnityEngine;
 using UnityEngine.UI;
 

@@ -1,7 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using Code.BResourceMgr;
-using Code.UI;
+using Code.BUI;
+using Code.BWindow;
 using UnityEngine;
 
 public class Window_Logo : AWindow {

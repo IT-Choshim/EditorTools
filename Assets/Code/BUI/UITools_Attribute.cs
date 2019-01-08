@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-namespace Code.UI
+namespace Code.BUI
 {
 
     public class UITools_Attribute : MonoBehaviour

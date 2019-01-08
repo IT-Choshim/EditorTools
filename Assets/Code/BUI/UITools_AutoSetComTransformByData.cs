@@ -7,7 +7,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-namespace Code.UI
+namespace Code.BUI
 {
 
     public class UITools_AutoSetComTransformByData

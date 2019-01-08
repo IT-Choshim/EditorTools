@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Code.BWindow {
+
 public class SubWindow:AWindow {
 
     public SubWindow(string name) : base(name)
@@ -67,4 +69,5 @@ public class SubWindow:AWindow {
         base.Close();
     }
 
+    }
 }

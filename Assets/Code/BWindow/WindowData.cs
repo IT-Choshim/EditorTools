@@ -3,6 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+namespace Code.BWindow {
+
 public class WindowData {
 
 
@@ -69,4 +71,5 @@ public class WindowData {
         }
     }
 
+}
 }

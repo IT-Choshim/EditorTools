@@ -60,17 +60,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Code\ResourceMgr\AssetBundleMgr.cs" />
-    <Compile Include="Assets\Code\ResourceMgr\BResources.cs" />
-    <Compile Include="Assets\Code\ResourceMgr\DevResourceMgr.cs" />
-    <Compile Include="Assets\Code\ResourceMgr\IResMgr.cs" />
-    <Compile Include="Assets\Code\UI\ComponentAttribute.cs" />
-    <Compile Include="Assets\Code\UI\UITools.cs" />
-    <Compile Include="Assets\Code\UI\UITools_Attribute.cs" />
-    <Compile Include="Assets\Code\UI\UITools_AutoSetComTransformByData.cs" />
-    <Compile Include="Assets\Code\Window\AWindow.cs" />
-    <Compile Include="Assets\Code\Window\SubWindow.cs" />
-    <Compile Include="Assets\Code\Window\WindowData.cs" />
+    <Compile Include="Assets\Code\BDebug\BDebug.cs" />
+    <Compile Include="Assets\Code\BDebug\IDebug.cs" />
+    <Compile Include="Assets\Code\BResourceMgr\AssetBundleMgr.cs" />
+    <Compile Include="Assets\Code\BResourceMgr\BResources.cs" />
+    <Compile Include="Assets\Code\BResourceMgr\DevResourceMgr.cs" />
+    <Compile Include="Assets\Code\BResourceMgr\IResMgr.cs" />
+    <Compile Include="Assets\Code\BUI\ComponentAttribute.cs" />
+    <Compile Include="Assets\Code\BUI\UITools.cs" />
+    <Compile Include="Assets\Code\BUI\UITools_Attribute.cs" />
+    <Compile Include="Assets\Code\BUI\UITools_AutoSetComTransformByData.cs" />
+    <Compile Include="Assets\Code\BWindow\AWindow.cs" />
+    <Compile Include="Assets\Code\BWindow\SubWindow.cs" />
+    <Compile Include="Assets\Code\BWindow\WindowData.cs" />
     <Compile Include="Assets\Scripts\SubWindow_Logo.cs" />
     <Compile Include="Assets\Scripts\Table\Buff.cs" />
     <Compile Include="Assets\Scripts\Table\Hero.cs" />

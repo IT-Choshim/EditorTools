@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace Code.UI
+namespace Code.BUI
 {
     static public class UITools
     {
