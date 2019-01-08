@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Code.BDebug
 {
-    public class BDebug : IDebug
+    public class BDebug
     {
 
         /// <summary>
@@ -12,9 +12,9 @@ namespace Code.BDebug
         /// </summary>
         /// <param name="t">T.</param>
         /// <typeparam name="T">The 1st type parameter.</typeparam>
-        public void Log<T>(T t) where T : Object
+        static public void Log(object o)
         {
-            Debug.Log(t.ToString());
+            Debug.Log(o.ToString());
         }
 
 
@@ -23,9 +23,9 @@ namespace Code.BDebug
         /// </summary>
         /// <param name="t">T.</param>
         /// <typeparam name="T">The 1st type parameter.</typeparam>
-        public void LogError<T>(T t) where T : Object
+        static public void LogError(object o)
         {
-            Debug.LogError(t.ToString());
+            Debug.LogError(o.ToString());
         }
 
     }

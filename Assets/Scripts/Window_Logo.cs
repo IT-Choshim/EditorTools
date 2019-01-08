@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Code.BDebug;
 using Code.BResourceMgr;
 using Code.BUI;
 using Code.BWindow;
@@ -15,7 +16,7 @@ public class Window_Logo : AWindow {
 
     public Window_Logo(Transform transform) : base(transform)
     {
-
+        
     }
 
     public override void Init()
@@ -27,6 +28,8 @@ public class Window_Logo : AWindow {
         go = GameObject.Instantiate(go);
         go.transform.SetParent(canvasTrans, false);
 
+        BDebug.Log(canvasTrans);
+
 
         var tools = new ToolsData()
         {
@@ -35,7 +38,6 @@ public class Window_Logo : AWindow {
         };
 
         UITools.AutoSetComValue(go.transform, tools);
-
 
 
         var subWindow = new SubWindow_Logo(canvasTrans.Find("GameObject"));

@@ -32,11 +32,9 @@ namespace Code.BResourceMgr
             objsMap = new Dictionary<string, Object>();
             allResourceList = new List<string>();
 
-            Debug.Log(Application.dataPath);
-
             var root = Application.dataPath + "/" + ResourceRoot;
             allResourceList = Directory.GetFiles(root, "*.*", SearchOption.AllDirectories).ToList();
-            Debug.Log(allResourceList.Count);
+
             for (int i = 0; i < allResourceList.Count; i++)
             {
                 if (Application.platform == RuntimePlatform.WindowsEditor)
@@ -69,7 +67,6 @@ namespace Code.BResourceMgr
             {
                 path = path + ".";
                 var file = this.allResourceList.Find(a => a.Contains(path));
-                Debug.Log(file);
                 objsMap[path] = AssetDatabase.LoadAssetAtPath<T>("Assets/" + ResourceRoot + "/" + file);
                 return objsMap[path] as T;
             }

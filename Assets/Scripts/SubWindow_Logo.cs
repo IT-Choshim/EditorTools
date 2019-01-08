@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using Code.BDebug;
 using Code.BWindow;
 using UnityEngine;
 using UnityEngine.UI;
@@ -24,7 +25,7 @@ public class SubWindow_Logo : SubWindow
     public override void Init()
     {
         base.Init();
-        Debug.Log("Init()");
+        BDebug.Log("Init()");
         text = this.Transform.Find("Text").GetComponent<Text>();
     }
 
@@ -36,8 +37,8 @@ public class SubWindow_Logo : SubWindow
         if(data.dataMap.TryGetValue("logo",out o))
         {
             Window_Logo.Data ld = (Window_Logo.Data)o;
-            Debug.Log(ld.name);
-            Debug.Log(ld.age);
+            BDebug.Log(ld.name);
+            BDebug.Log(ld.age);
             text.text = ld.name + "--" + ld.age;
         }
 
