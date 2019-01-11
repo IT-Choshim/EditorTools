@@ -1,14 +1,12 @@
 ﻿<Properties StartupConfiguration="{01AD4FDB-307B-210B-7AAC-AB2059328D88}|">
-  <MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Code/BUITools/UITools_AutoSetComTransformByData.cs">
     <Files>
-      <File FileName="Assets/Code/BWindow/SubWindow.cs" Line="18" Column="9" />
-      <File FileName="Assets/Code/BWindow/WindowData.cs" Line="5" Column="1" />
-      <File FileName="Assets/Code/BDebug/BDebug.cs" Line="17" Column="20" />
-      <File FileName="Assets/Code/BWindow/AWindow.cs" Line="47" Column="23" />
-      <File FileName="Assets/Scripts/SubWindow_Logo.cs" Line="15" Column="52" />
       <File FileName="Assets/Scripts/test.cs" Line="13" Column="8" />
-      <File FileName="Assets/Scripts/Window_Logo.cs" Line="30" Column="9" />
+      <File FileName="Assets/Scripts/Window_Logo.cs" Line="20" Column="6" />
       <File FileName="Assets/Code/BResourceMgr/DevResourceMgr.cs" Line="6" Column="19" />
+      <File FileName="Assets/Code/BResourceMgr/AssetBundleMgr.cs" Line="15" Column="1" />
+      <File FileName="Assets/Code/BUITools/UITools_AutoSetComTransformByData.cs" Line="131" Column="26" />
+      <File FileName="Assets/Code/BUITools/ComponentAttribute.cs" Line="55" Column="27" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.ItemProperties.Assembly-CSharp-Editor PreferredExecutionTarget="Unity.Editor" />
