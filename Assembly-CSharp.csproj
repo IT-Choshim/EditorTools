@@ -72,26 +72,30 @@
     <Compile Include="Assets\Code\BWindow\AWindow.cs" />
     <Compile Include="Assets\Code\BWindow\SubWindow.cs" />
     <Compile Include="Assets\Code\BWindow\WindowData.cs" />
-    <Compile Include="Assets\Scripts\SubWindow_Logo.cs" />
+    <Compile Include="Assets\Code\LoadScene\LoadMain.cs" />
+    <Compile Include="Assets\Code\LoadScene\SceneLoadManager.cs" />
+    <Compile Include="Assets\Code\ReadCSV\DataPathAttribute.cs" />
+    <Compile Include="Assets\Code\ReadCSV\ReadManager.cs" />
     <Compile Include="Assets\Scripts\Table\Buff.cs" />
     <Compile Include="Assets\Scripts\Table\Hero.cs" />
     <Compile Include="Assets\Scripts\Table\Item.cs" />
     <Compile Include="Assets\Scripts\Table\Mail.cs" />
     <Compile Include="Assets\Scripts\Table\Shop.cs" />
     <Compile Include="Assets\Scripts\Table\Skill.cs" />
-    <Compile Include="Assets\Scripts\test.cs" />
-    <Compile Include="Assets\Scripts\Window_Logo.cs" />
+    <Compile Include="Assets\Scripts\Test\SubWindow_Logo.cs" />
+    <Compile Include="Assets\Scripts\Test\test.cs" />
+    <Compile Include="Assets\Scripts\Test\Window_Logo.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/lizhi/Work/unity/EditorTools/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
       <HintPath>/Users/lizhi/Work/unity/EditorTools/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/lizhi/Work/unity/EditorTools/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>/Users/lizhi/Work/unity/EditorTools/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>/Users/lizhi/Work/unity/EditorTools/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>/Users/lizhi/Work/unity/EditorTools/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
