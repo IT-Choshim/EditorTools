@@ -1,0 +1,18 @@
+ManifestFileVersion: 0
+CRC: 2947489479
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 66d9285d4c7a3f37f79acfd224756dd5
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ea5a42e0fd8ea905efa7aa926a3b8944
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+Assets:
+- Assets/Resources/AssetBundle/Icon_FriendHead_.png
+Dependencies: []

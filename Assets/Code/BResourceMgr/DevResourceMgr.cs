@@ -67,7 +67,7 @@ namespace Code.BResourceMgr
             {
                 path = path + ".";
                 var file = this.allResourceList.Find(a => a.Contains(path));
-                objsMap[path] = AssetDatabase.LoadAssetAtPath<T>("Assets/" + ResourceRoot + "/" + file);
+                //objsMap[path] = AssetDatabase.LoadAssetAtPath<T>("Assets/" + ResourceRoot + "/" + file);
                 return objsMap[path] as T;
             }
         }

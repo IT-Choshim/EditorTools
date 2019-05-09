@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Code\AudioData\AudioData.cs" />
     <Compile Include="Assets\Code\BDebug\BDebug.cs" />
     <Compile Include="Assets\Code\BResourceMgr\AssetBundleMgr.cs" />
     <Compile Include="Assets\Code\BResourceMgr\BResources.cs" />
@@ -72,10 +73,23 @@
     <Compile Include="Assets\Code\BWindow\AWindow.cs" />
     <Compile Include="Assets\Code\BWindow\SubWindow.cs" />
     <Compile Include="Assets\Code\BWindow\WindowData.cs" />
+    <Compile Include="Assets\Code\FSM\FSMState.cs" />
+    <Compile Include="Assets\Code\FSM\FSMSystem.cs" />
+    <Compile Include="Assets\Code\FSM\RunState.cs" />
+    <Compile Include="Assets\Code\FSM\StopState.cs" />
+    <Compile Include="Assets\Code\FSM\WalkState.cs" />
     <Compile Include="Assets\Code\LoadScene\LoadMain.cs" />
     <Compile Include="Assets\Code\LoadScene\SceneLoadManager.cs" />
+    <Compile Include="Assets\Code\Mirror\ListPool.cs" />
+    <Compile Include="Assets\Code\Mirror\Mirror.cs" />
+    <Compile Include="Assets\Code\Mirror\Pool.cs" />
     <Compile Include="Assets\Code\ReadCSV\DataPathAttribute.cs" />
     <Compile Include="Assets\Code\ReadCSV\ReadManager.cs" />
+    <Compile Include="Assets\Code\TextHuaPing\HuaPingText.cs" />
+    <Compile Include="Assets\Code\UIGray\UIGray.cs" />
+    <Compile Include="Assets\Resources\AssetBundle\LoadAB.cs" />
+    <Compile Include="Assets\Resources\AssetBundle\StartLua.cs" />
+    <Compile Include="Assets\Scripts\sizeDelta\SizeDelta.cs" />
     <Compile Include="Assets\Scripts\Table\Buff.cs" />
     <Compile Include="Assets\Scripts\Table\Hero.cs" />
     <Compile Include="Assets\Scripts\Table\Item.cs" />

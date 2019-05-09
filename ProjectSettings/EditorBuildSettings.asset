@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/main.unity
     guid: 38b0886136a624210b6f9529a4cfc644
+  - enabled: 1
+    path: Assets/Scripts/sizeDelta/sizeDelta.unity
+    guid: 88f7973f48d4b4426b1a114409686c1c
   m_configObjects: {}
